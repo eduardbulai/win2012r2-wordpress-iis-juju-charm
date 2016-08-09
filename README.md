@@ -9,7 +9,7 @@ The core software is built by hundreds of community volunteers, and when you’r
 
 To deploy a WordPress service on IIS:
 
-    juju deploy --repository=/path/to/this/charm windows/wordpress-iis
+    juju deploy --repository=/path/to/this/charm local:win2012r2/wordpress-iis
 
 As a database backend, WordPress currently uses [MySQL](https://www.mysql.com) with which it comes preinstalled but can also connect to another MySQL machine with a Juju relation
 

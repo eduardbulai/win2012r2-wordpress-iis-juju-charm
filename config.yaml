@@ -1,0 +1,25 @@
+options:
+  site-name:
+    type: string
+    default: "Wordpress IIS Web Site"
+    description: "Name of the Wordpress website."
+  site-path:
+    type: string
+    default: ""
+    description: "Web server path of the Wordpress website. The default/blank value means that it will be installed in the web server's root path."
+  admin-password:
+    type: string
+    default: "password"
+    description: "Password used by the admin user."
+  admin-mail:
+    type: string
+    default: "admin@admin.com"
+    description: "E-mail used by the admin user."
+  database-name:
+    type: string
+    default: "wordpress"
+    description: "Database name"
+  database-user-name:
+    type: string
+    default: "wordpress"
+    description: "Database user name. Max 16 characters"
